@@ -40,16 +40,24 @@ public class MainActivity extends AppCompatActivity {
                 switch (item.getItemId()) {
 
                     case R.id.mFavorito:
-                        Toast.makeText(getApplicationContext(), "cliquei no Favorito", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(),
+                                "cliquei no Favorito",
+                                Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.mBuscar:
-                        Toast.makeText(getApplicationContext(), "cliquei no Buscar", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(),
+                                "cliquei no Buscar",
+                                Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.mCompartilhar:
-                        Toast.makeText(getApplicationContext(), "cliquei no Compartilhar", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(),
+                                "cliquei no Compartilhar",
+                                Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.mNotificacao:
-                        Toast.makeText(getApplicationContext(), "cliquei no Notificação", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(),
+                                "cliquei no Notificação",
+                                Toast.LENGTH_SHORT).show();
                         break;
                 }
                 return true;
