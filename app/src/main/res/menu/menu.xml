@@ -16,14 +16,10 @@
         android:icon="@drawable/vector_share"
         android:title="Share"
         app:showAsAction="ifRoom" />
+
     <item
-        android:id="@+id/mSair"
-        android:icon="@drawable/vector_exit"
-        android:title="Exit"
-        app:showAsAction="ifRoom" />
-    <item
-        android:id="@+id/mSalvar"
-        android:icon="@drawable/vector_save"
-        android:title="Save"
+        android:id="@+id/mNotificacao"
+        android:icon="@drawable/vector_notification"
+        android:title="notification"
         app:showAsAction="ifRoom" />
 </menu>

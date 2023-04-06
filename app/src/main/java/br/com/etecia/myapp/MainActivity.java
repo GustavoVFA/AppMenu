@@ -48,14 +48,10 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.mCompartilhar:
                         Toast.makeText(getApplicationContext(), "cliquei no Compartilhar", Toast.LENGTH_SHORT).show();
                         break;
-                    case R.id.mSalvar:
-                        Toast.makeText(getApplicationContext(), "cliquei no Salvar", Toast.LENGTH_SHORT).show();
-                        break;
-                    case R.id.mSair:
-                        Toast.makeText(getApplicationContext(), "cliquei no Sair", Toast.LENGTH_SHORT).show();
+                    case R.id.mNotificacao:
+                        Toast.makeText(getApplicationContext(), "cliquei no Notificação", Toast.LENGTH_SHORT).show();
                         break;
                 }
-
                 return true;
             }
         });
