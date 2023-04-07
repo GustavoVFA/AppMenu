@@ -24,7 +24,7 @@ public class BottomNavigationActivity extends AppCompatActivity {
            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                switch (item.getItemId()){
                    case R.id.mNavFav:
-                       Toast.makeText(getApplicationContext(),"Cliquei no Favorite",Toast.LENGTH_SHORT).show();
+                       startActivity(new Intent(getApplicationContext(), MainActivity.class));
                        break;
                    case R.id.mMUsic:
                        Toast.makeText(getApplicationContext(),"Cliquei no Music",Toast.LENGTH_SHORT).show();
