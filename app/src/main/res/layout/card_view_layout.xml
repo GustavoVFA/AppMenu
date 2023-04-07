@@ -11,8 +11,13 @@
         android:id="@+id/CardView1"
         android:layout_width="350dp"
         android:layout_gravity="center_horizontal"
-        android:layout_height="200dp"
+        android:layout_height="350dp"
         android:clickable="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
 
         <ImageView
             android:layout_width="match_parent"
@@ -32,7 +37,14 @@
 
         <RatingBar
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:numStars="1"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:stepSize="1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.5" />
 
         <ImageView
             android:layout_width="wrap_content"
@@ -43,7 +55,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/vector_share"/>
-
+        </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
 </LinearLayout>
