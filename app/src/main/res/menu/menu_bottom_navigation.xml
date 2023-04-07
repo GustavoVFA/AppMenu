@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mNavFav"
+        android:icon="@drawable/vector_fav"
+        android:title="Favorite" />
+
+    <item
+        android:id="@+id/mMUsic"
+        android:icon="@drawable/vector_music_note"
+        android:title="Music" />
+
+    <item
+        android:id="@+id/mPlace"
+        android:icon="@drawable/vector_place"
+        android:title="Place" />
+
+    <item
+        android:id="@+id/mNewspaper"
+        android:icon="@drawable/vector_newspaper"
+        android:title="Newspaper" />
+
+</menu>

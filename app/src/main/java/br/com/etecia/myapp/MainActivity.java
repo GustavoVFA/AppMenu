@@ -51,9 +51,8 @@ public class MainActivity extends AppCompatActivity {
                                 Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.mCompartilhar:
-                        Toast.makeText(getApplicationContext(),
-                                "cliquei no Compartilhar",
-                                Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(getApplicationContext(),
+                                BottomNavigationActivity.class));
                         break;
                     case R.id.mNotificacao:
                         Toast.makeText(getApplicationContext(),
